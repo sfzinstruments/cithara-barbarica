@@ -1,0 +1,52 @@
+<control>
+label_cc31=Width
+label_cc34=Octave
+label_cc105=Muting mode
+
+set_cc31=127
+
+
+<global>
+#include "modules/controls/common.sfz"
+
+
+//Piano mode
+<master>
+hicc105=63
+
+
+<group>
+#include "modules/maps/cithara_muted_nail_map.sfz"
+
+//Lyre mode
+<master>
+locc105=64
+loop_mode=one_shot
+note_polyphony=1
+note_selfmask=off
+group=1
+lovel=43
+amp_velcurve_43=0
+
+
+<group>
+#include "modules/maps/cithara_muted_nail_map.sfz"
+
+
+//Lyre mode mute group
+<master>
+locc105=64
+loop_mode=one_shot
+note_polyphony=1
+note_selfmask=off
+group=1
+hivel=42
+<region>
+lokey=52
+hikey=72
+ampeg_sustain=0
+ampeg_decay=0
+sample=*silence
+
+//Curves
+#include "modules/controls/curves.sfz"

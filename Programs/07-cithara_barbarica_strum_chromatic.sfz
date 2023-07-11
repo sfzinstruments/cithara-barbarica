@@ -1,0 +1,291 @@
+<control>
+label_cc1=Strum time
+label_cc31=Width
+label_cc34=Octave
+label_cc33=Muted string vol
+label_cc105=Mode
+
+set_cc1=40
+set_cc31=127
+set_cc33=100
+set_cc105=42
+
+
+<global>
+loop_mode=one_shot
+sw_lokey=57
+sw_hikey=70
+off_mode=time
+off_time=0.4
+seq_length=4
+tune_oncc34=-2400
+tune_curvecc34=16
+pitch_keytrack=0
+sw_lokey=89
+sw_hikey=92
+sw_default=89
+
+//Upstrokes always use fingers
+<master>
+
+<group>
+key=37
+#include "modules/maps/strums_chromatic/cithara_finger_strum_10u.sfz"
+<group>
+key=37
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_10u.sfz"
+
+<group>
+key=34
+#include "modules/maps/strums_chromatic/cithara_finger_strum_9u.sfz"
+<group>
+key=34
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_9u.sfz"
+
+<group>
+key=32
+#include "modules/maps/strums_chromatic/cithara_finger_strum_8u.sfz"
+<group>
+key=32
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_8u.sfz"
+
+<group>
+key=30
+#include "modules/maps/strums_chromatic/cithara_finger_strum_7u.sfz"
+<group>
+key=30
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_7u.sfz"
+
+<group>
+key=27
+#include "modules/maps/strums_chromatic/cithara_finger_strum_6u.sfz"
+<group>
+key=27
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_6u.sfz"
+
+<group>
+key=25
+#include "modules/maps/strums_chromatic/cithara_finger_strum_5u.sfz"
+<group>
+key=25
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_5u.sfz"
+
+<group>
+key=22
+#include "modules/maps/strums_chromatic/cithara_finger_strum_4u.sfz"
+<group>
+key=22
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_4u.sfz"
+
+<group>
+key=20
+#include "modules/maps/strums_chromatic/cithara_finger_strum_3u.sfz"
+<group>
+key=20
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_3u.sfz"
+
+<group>
+key=18
+#include "modules/maps/strums_chromatic/cithara_finger_strum_2u.sfz"
+<group>
+key=18
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_2u.sfz"
+
+
+
+
+//Downstrokes with fingers
+<master>
+hicc105=63
+
+<group>
+key=36
+#include "modules/maps/strums_chromatic/cithara_finger_strum_10d.sfz"
+<group>
+key=36
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_10d.sfz"
+
+<group>
+key=33
+#include "modules/maps/strums_chromatic/cithara_finger_strum_9d.sfz"
+<group>
+key=33
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_9d.sfz"
+
+<group>
+key=31
+#include "modules/maps/strums_chromatic/cithara_finger_strum_8d.sfz"
+<group>
+key=31
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_8d.sfz"
+
+<group>
+key=29
+#include "modules/maps/strums_chromatic/cithara_finger_strum_7d.sfz"
+<group>
+key=29
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_7d.sfz"
+
+<group>
+key=26
+#include "modules/maps/strums_chromatic/cithara_finger_strum_6d.sfz"
+<group>
+key=26
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_6d.sfz"
+
+<group>
+key=24
+#include "modules/maps/strums_chromatic/cithara_finger_strum_5d.sfz"
+<group>
+key=24
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_5d.sfz"
+
+<group>
+key=21
+#include "modules/maps/strums_chromatic/cithara_finger_strum_4d.sfz"
+<group>
+key=21
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_4d.sfz"
+
+<group>
+key=19
+#include "modules/maps/strums_chromatic/cithara_finger_strum_3d.sfz"
+<group>
+key=19
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_3d.sfz"
+
+<group>
+key=17
+#include "modules/maps/strums_chromatic/cithara_finger_strum_2d.sfz"
+<group>
+key=17
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_f_mute_strum_2d.sfz"
+
+//Downstrokes with nails
+<master>
+locc105=64
+
+<group>
+key=36
+#include "modules/maps/strums_chromatic/cithara_nail_strum_10d.sfz"
+<group>
+key=36
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_10d.sfz"
+
+<group>
+key=33
+#include "modules/maps/strums_chromatic/cithara_nail_strum_9d.sfz"
+<group>
+key=33
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_9d.sfz"
+
+<group>
+key=31
+#include "modules/maps/strums_chromatic/cithara_nail_strum_8d.sfz"
+<group>
+key=31
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_8d.sfz"
+
+<group>
+key=29
+#include "modules/maps/strums_chromatic/cithara_nail_strum_7d.sfz"
+<group>
+key=29
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_7d.sfz"
+
+<group>
+key=27
+#include "modules/maps/strums_chromatic/cithara_nail_strum_6d.sfz"
+<group>
+key=27
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_6d.sfz"
+
+<group>
+key=25
+#include "modules/maps/strums_chromatic/cithara_nail_strum_5d.sfz"
+<group>
+key=25
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_5d.sfz"
+
+<group>
+key=21
+#include "modules/maps/strums_chromatic/cithara_nail_strum_4d.sfz"
+<group>
+key=21
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_4d.sfz"
+
+<group>
+key=19
+#include "modules/maps/strums_chromatic/cithara_nail_strum_3d.sfz"
+<group>
+key=19
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_3d.sfz"
+
+<group>
+key=17
+#include "modules/maps/strums_chromatic/cithara_nail_strum_2d.sfz"
+<group>
+key=17
+amplitude_cc33=100
+#include "modules/maps/strums_chromatic/cithara_n_mute_strum_2d.sfz"
+
+//Single notes
+<master>
+pitch_keytrack=100
+sw_last=89
+sw_label=Finger
+#include "modules/maps/strums_chromatic/cithara_finger_singles.sfz"
+<master>
+pitch_keytrack=100
+sw_last=90
+sw_label=Muted finger
+#include "modules/maps/strums_chromatic/cithara_muted_finger_singles.sfz"
+<master>
+pitch_keytrack=100
+sw_last=91
+sw_label=Nail
+#include "modules/maps/strums_chromatic/cithara_nail_singles.sfz"
+<master>
+pitch_keytrack=100
+sw_last=92
+sw_label=Muted nail
+#include "modules/maps/strums_chromatic/cithara_muted_nail_singles.sfz"
+
+
+
+//Silences just to make the muting keys visible
+<master>
+loop_mode=normal
+amplitude=0
+ampeg_sustain=0
+ampeg_decay=0
+#include "modules/maps/strums_chromatic/cithara_placeholder.sfz"
+
+//Curves
+#include "modules/controls/curves.sfz"
